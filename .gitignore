@@ -1,0 +1,4 @@
+# Project exclude paths
+/MaxParent/.gradle/
+/MaxParent/build/
+/MaxParent/MaxCore/build/

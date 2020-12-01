@@ -1,0 +1,43 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.20'
+    id 'java'
+}
+apply plugin: 'java'
+
+group = 'cn.maxmc'
+version = '1.0.0'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    maven {
+        name = "Minecraft-Mixed Repo"
+        url = "http://lss233.littleservice.cn/repositories/minecraft/"
+    }
+    maven {
+        name = "Aliyun Repo"
+        url = 'https://maven.aliyun.com/repository/public/'
+    }
+    mavenCentral()
+    maven {
+        name = 'sonatype'
+        url = 'https://oss.sonatype.org/content/groups/public/'
+    }
+    maven {
+        name = 'destroystokyo-repo'
+        url = 'https://repo.destroystokyo.com/repository/maven-public/'
+    }
+}
+
+dependencies {
+    implementation 'io.github.waterfallmc:waterfall-api:1.16-R0.4-SNAPSHOT'
+//    compileOnly 'io.github.waterfallmc:waterfall-parent:1.16-R0.4-SNAPSHOT'
+}
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        include 'plugin.yml'
+        expand version: project.version
+    }
+}

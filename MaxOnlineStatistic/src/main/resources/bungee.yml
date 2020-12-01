@@ -1,0 +1,3 @@
+name: MaxOnlineStatistic
+version: ${version}
+main: cn.maxmc.maxonlinestatistic.MaxOnlineStatistic

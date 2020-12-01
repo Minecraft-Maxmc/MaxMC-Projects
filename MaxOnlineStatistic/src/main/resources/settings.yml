@@ -1,0 +1,10 @@
+database:
+  url: 'localhost'
+  port: 3306
+  username: 'root'
+  password: 'password'
+  db: 'maxmcsta'
+  other:
+    useSSL: false
+    characterEncoding: utf8
+    autoReconnect: true

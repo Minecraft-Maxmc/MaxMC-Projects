@@ -1,0 +1,17 @@
+
+
+
+
+
+lang:
+  - "zh_CN"
+  - "en_US"
+
+database:
+  setup: true
+  host: "localhost:3336"
+  username: root
+  password: d8823577
+  properties:
+    - "characterEncoding=utf8"
+    - "useSSL=false"

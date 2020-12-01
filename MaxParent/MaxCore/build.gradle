@@ -1,0 +1,23 @@
+plugins {
+    id 'io.izzel.taboolib'
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'cn.maxmc.maxcore'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies { }
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        include 'plugin.yml'
+        expand name: project.name,
+                main: project.group + ".boot.PluginBoot",
+                version: project.version,
+                libVersion: taboolib.tabooLibVersion
+    }
+}

@@ -1,0 +1,56 @@
+plugins {
+    id 'io.izzel.taboolib' version '1.2'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+group 'cn.maxmc'
+version '1.0.0'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+allprojects{
+    repositories {
+        maven {
+            name = "Minecraft-Mixed Repo"
+            url = "http://lss233.littleservice.cn/repositories/minecraft/"
+        }
+
+        maven {
+            name = "Aliyun Repo"
+            url = 'https://maven.aliyun.com/repository/public/'
+        }
+
+        maven {
+            name = "PAPI Repo"
+            url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/'
+        }
+
+        maven {
+            name = "Jitpack Repo"
+            url 'https://jitpack.io'
+        }
+        mavenCentral()
+    }
+}
+
+
+subprojects {
+    apply plugin: 'org.jetbrains.kotlin.jvm'
+    apply plugin: 'io.izzel.taboolib'
+
+    taboolib {
+        tabooLibVersion = '5.36'
+        loaderVersion = '2.6'
+        classifier = null
+    }
+
+    dependencies {
+        compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+        compileOnly "org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT"
+        compileOnly 'ink.ptms.core:v10800:10800:all'
+        compileOnly 'org.projectlombok:lombok:1.18.12'
+        implementation "org.jetbrains.kotlin:kotlin-stdlib"
+        annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    }
+}

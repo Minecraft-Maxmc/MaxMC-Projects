@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9fea1f8-254f-4b4c-a9a7-2da41cda3067" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/MaxOnlineStatistic">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/MaxParent">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/MaxParent">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/MaxParent/MaxCore">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/MaxOnlineStatistic">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxOnlineStatistic" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxOnlineStatistic" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxOnlineStatistic" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxParent" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Object" />
+      </list>
+    </option>
+  </component>
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iPXvXAHHjTLMLIVbIFFVphVnkd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.PlayerDataManagerKt">
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/MaxCore/src" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxOnlineStatistic build" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" value="MaxOnlineStatistic build" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MaxOnlineStatistic" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxParent [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MaxParent" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="classes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxParent [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MaxParent" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaxCoreKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="MaxParent.MaxCore.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="cn.maxmc.maxcore.MaxCoreKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerDataManagerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="MaxOnlineStatistic.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="cn.maxmc.maxonlinestatistic.PlayerDataManagerKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="MaxParent.MaxCore.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MaxCore" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MaxCore" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.PlayerDataManagerKt" />
+        <item itemvalue="Gradle.MaxParent [classes]" />
+        <item itemvalue="Gradle.MaxParent [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9fea1f8-254f-4b4c-a9a7-2da41cda3067" name="默认的" comment="" />
+      <created>1601810432057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601810432057</updated>
+      <workItem from="1601810433350" duration="276000" />
+      <workItem from="1601810756275" duration="118000" />
+      <workItem from="1601810913838" duration="15000" />
+      <workItem from="1601810941170" duration="183000" />
+      <workItem from="1601811154048" duration="8853000" />
+      <workItem from="1601822345879" duration="169000" />
+      <workItem from="1601832108459" duration="6644000" />
+      <workItem from="1601870304855" duration="1523000" />
+      <workItem from="1606314876722" duration="1537000" />
+      <workItem from="1606363792828" duration="3747000" />
+      <workItem from="1606400094425" duration="17000" />
+      <workItem from="1606787390572" duration="6050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="810" y="296" key="#com.intellij.ide.util.MemberChooser" timestamp="1606789973771">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="810" y="296" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1606789973771" />
+    <state x="512" y="154" key="#项目结构" timestamp="1606789379775">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="512" y="154" key="#项目结构/0.0.2048.1152@0.0.2048.1152" timestamp="1606789379775" />
+    <state x="512" y="170" key="#项目结构/0.25.2048.1084@0.25.2048.1084" timestamp="1606315127922" />
+    <state x="512" y="171" key="#项目结构/0.25.2048.1090@0.25.2048.1090" timestamp="1601811217845" />
+    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog" timestamp="1606364642342">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606364642342" />
+    <state width="2006" height="260" key="GridCell.Tab.0.bottom" timestamp="1606399974632">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2006" height="260" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974632" />
+    <state width="2006" height="197" key="GridCell.Tab.0.bottom/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428558" />
+    <state width="1665" height="205" key="GridCell.Tab.0.bottom/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201455" />
+    <state width="2006" height="260" key="GridCell.Tab.0.center" timestamp="1606399974631">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2006" height="260" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974631" />
+    <state width="2006" height="197" key="GridCell.Tab.0.center/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428557" />
+    <state width="1665" height="205" key="GridCell.Tab.0.center/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201455" />
+    <state width="2006" height="260" key="GridCell.Tab.0.left" timestamp="1606399974630">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2006" height="260" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974630" />
+    <state width="2006" height="197" key="GridCell.Tab.0.left/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428556" />
+    <state width="1665" height="205" key="GridCell.Tab.0.left/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201454" />
+    <state width="2006" height="260" key="GridCell.Tab.0.right" timestamp="1606399974632">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2006" height="260" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974632" />
+    <state width="2006" height="197" key="GridCell.Tab.0.right/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428557" />
+    <state width="1665" height="205" key="GridCell.Tab.0.right/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201455" />
+    <state x="608" y="314" key="IDE.errors.dialog" timestamp="1606364091120">
+      <screen x="0" y="25" width="2048" height="1084" />
+    </state>
+    <state x="608" y="314" key="IDE.errors.dialog/0.25.2048.1084@0.25.2048.1084" timestamp="1606364091120" />
+    <state x="512" y="154" key="SettingsEditor" timestamp="1601810509037">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="512" y="154" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1601810509037" />
+    <state width="329" height="350" key="documentation.popup.size" timestamp="1606364742447">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="329" height="350" key="documentation.popup.size/0.0.2048.1152@0.0.2048.1152" timestamp="1606364742447" />
+    <state x="459" y="195" key="new project wizard" timestamp="1606787539941">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="459" y="195" key="new project wizard/0.0.2048.1152@0.0.2048.1152" timestamp="1606787539941" />
+    <state x="459" y="209" key="new project wizard/0.25.2048.1084@0.25.2048.1084" timestamp="1606315113498" />
+    <state x="459" y="210" key="new project wizard/0.25.2048.1090@0.25.2048.1090" timestamp="1601811247354" />
+    <state x="689" y="273" key="run.anything.popup" timestamp="1601814369925">
+      <screen x="0" y="25" width="2048" height="1090" />
+    </state>
+    <state x="689" y="273" key="run.anything.popup/0.25.2048.1090@0.25.2048.1090" timestamp="1601814369925" />
+    <state x="689" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1601819950261">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="689" y="259" width="670" height="676" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1601819950261" />
+  </component>
+</project>

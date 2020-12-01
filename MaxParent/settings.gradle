@@ -1,0 +1,5 @@
+rootProject.name = 'MaxParent'
+include 'MaxCore'
+include 'MaxOnlineStatistic'
+include 'MaxHub'
+
