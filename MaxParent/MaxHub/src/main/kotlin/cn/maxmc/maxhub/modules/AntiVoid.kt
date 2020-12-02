@@ -4,7 +4,7 @@ import cn.maxmc.maxhub.spawn
 import org.bukkit.event.EventHandler
 import org.bukkit.event.player.PlayerMoveEvent
 
-object AntiVoid: IModule {
+object AntiVoid: AbstractModule() {
 
     @EventHandler
     fun onVoid(e: PlayerMoveEvent) {

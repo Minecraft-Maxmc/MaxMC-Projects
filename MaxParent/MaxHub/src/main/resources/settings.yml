@@ -1,11 +1,33 @@
-main:
+version: 0.1
+
+lang:
+  - "zh-CN"
+  - "en-US"
+Base:
+  prefix: "§6§lMAXMC §a§l>> "
   spawnloc:
-    ==: Location
-    world: World
-    x: 0
-    y: 0
-    z: 0
-    yaw: 0
-    pitch: 0
+
 AntiVoid:
   enable: false
+SpeedUp:
+  enable: false
+  active_speed: 5
+  switch_delay: 3
+InvManager:
+  enable: false
+  no_drop: true
+  clean: true
+  join_items:
+    enable: true
+    items:
+      menu:
+        name: "§6MaxMc §f菜单"
+        type: "COMPASS"
+        amount: 1
+        damage: 0
+        slot: 4
+        lore: |-
+          §7右键可以打开神秘的传送门
+        shiny: false
+        enchantments:
+          effiency: 1

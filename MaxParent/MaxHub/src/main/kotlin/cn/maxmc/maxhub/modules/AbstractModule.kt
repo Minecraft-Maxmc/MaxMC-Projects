@@ -1,17 +1,29 @@
 package cn.maxmc.maxhub.modules
 
+import cn.maxmc.maxhub.pSendToConsole
+import cn.maxmc.maxhub.settings
 import org.bukkit.Bukkit
+import org.bukkit.configuration.ConfigurationSection
 import org.bukkit.event.EventHandler
 import org.bukkit.event.HandlerList
 import org.bukkit.event.Listener
 import org.bukkit.plugin.Plugin
 
-interface IModule: Listener {
-    fun register(plugin: Plugin) {
+abstract class AbstractModule: Listener {
+    var isEnable: Boolean = false
+    private set
+    val config: ConfigurationSection
+    get() = settings.getConfigurationSection(this::class.java.simpleName)
+    val name
+    get() = this::class.java.simpleName
+    fun enable(plugin: Plugin) {
+        pSendToConsole("console.enable_module", this::class.java.simpleName)
         Bukkit.getPluginManager().registerEvents(this,plugin)
+        isEnable = true
     }
 
-    fun unRegister(plugin: Plugin) {
+    fun disable() {
+        pSendToConsole("console.disable_module", this::class.java.simpleName)
          this.javaClass.declaredMethods.forEach {
              if(it.getAnnotation(EventHandler::class.java) == null){
                  return@forEach
@@ -20,6 +32,6 @@ interface IModule: Listener {
              val handlerList = declaredMethod(null) as HandlerList
              handlerList.unregister(this)
          }
+        isEnable = false
     }
-
 }

@@ -3,8 +3,47 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9fea1f8-254f-4b4c-a9a7-2da41cda3067" name="默认的" comment="" />
+    <list default="true" id="b9fea1f8-254f-4b4c-a9a7-2da41cda3067" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MaxCore/MaxParent.MaxCore.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MaxHub/MaxParent.MaxHub.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MaxOnlineStatistic/MaxParent.MaxOnlineStatistic.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/commands/MaxHubCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/InvManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MaxMC-Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MaxMC-Projects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/MaxHub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/MaxHub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/ModuleManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/ModuleManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/WarpedDatas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/WarpedDatas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/AntiVoid.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/AntiVoid.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/IModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/AbstractModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/SpeedUp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/SpeedUp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/lang/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/lang/zh-CN.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,27 +75,33 @@
         <task path="$PROJECT_DIR$/MaxOnlineStatistic">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/MaxParent/MaxHub">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MaxOnlineStatistic" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MaxOnlineStatistic" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="MaxOnlineStatistic" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="MaxParent" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="MaxParent" type="f1a62948:ProjectNode" />
+                <item name="MaxHub" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxParent" type="f1a62948:ProjectNode" />
+                <item name="MaxHub" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MaxParent" type="f1a62948:ProjectNode" />
+                <item name="MaxHub" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -71,32 +116,30 @@
         <option value="Class" />
         <option value="FxmlFile" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="KotlinMultiplatform">
     <allAvailableExecutables />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1iPXvXAHHjTLMLIVbIFFVphVnkd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -112,14 +155,14 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.PlayerDataManagerKt">
+  <component name="RunManager" selected="Gradle.MaxParent:MaxHub [build]">
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="lua" />
       <option name="file" value="" />
@@ -129,17 +172,6 @@
       <option name="charset" value="UTF-8" />
       <option name="showConsole" value="true" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="MaxOnlineStatistic build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
@@ -157,10 +189,12 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxParent [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxParent [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/MaxParent" />
@@ -171,18 +205,20 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="classes" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxParent [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MaxParent:MaxHub [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/MaxParent" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MaxParent/MaxHub" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -190,22 +226,45 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="jar" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MaxCoreKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="MaxParent.MaxCore.main" />
+    <configuration name="MaxParent:MaxHub [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MaxParent/MaxHub" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ModuleManagerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="MaxParent.MaxHub.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="cn.maxmc.maxcore.MaxCoreKt" />
+      <option name="MAIN_CLASS_NAME" value="cn.maxmc.maxhub.ModuleManagerKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,19 +278,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="cn.maxmc.maxonlinestatistic.PlayerDataManagerKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="MaxParent.MaxCore.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,9 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MaxParent:MaxHub [build]" />
+        <item itemvalue="Gradle.MaxParent:MaxHub [assemble]" />
+        <item itemvalue="Gradle.MaxParent [dependencies]" />
+        <item itemvalue="应用程序.ModuleManagerKt" />
         <item itemvalue="应用程序.PlayerDataManagerKt" />
-        <item itemvalue="Gradle.MaxParent [classes]" />
-        <item itemvalue="Gradle.MaxParent [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -311,77 +359,30 @@
       <workItem from="1606314876722" duration="1537000" />
       <workItem from="1606363792828" duration="3747000" />
       <workItem from="1606400094425" duration="17000" />
-      <workItem from="1606787390572" duration="6050000" />
+      <workItem from="1606787390572" duration="19174000" />
+      <workItem from="1606883101125" duration="408000" />
+      <workItem from="1606888053928" duration="2969000" />
+      <workItem from="1606895784516" duration="6654000" />
+      <workItem from="1606906996078" duration="163000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="810" y="296" key="#com.intellij.ide.util.MemberChooser" timestamp="1606789973771">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="810" y="296" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1152@0.0.2048.1152" timestamp="1606789973771" />
-    <state x="512" y="154" key="#项目结构" timestamp="1606789379775">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="512" y="154" key="#项目结构/0.0.2048.1152@0.0.2048.1152" timestamp="1606789379775" />
-    <state x="512" y="170" key="#项目结构/0.25.2048.1084@0.25.2048.1084" timestamp="1606315127922" />
-    <state x="512" y="171" key="#项目结构/0.25.2048.1090@0.25.2048.1090" timestamp="1601811217845" />
-    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog" timestamp="1606364642342">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1606364642342" />
-    <state width="2006" height="260" key="GridCell.Tab.0.bottom" timestamp="1606399974632">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2006" height="260" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974632" />
-    <state width="2006" height="197" key="GridCell.Tab.0.bottom/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428558" />
-    <state width="1665" height="205" key="GridCell.Tab.0.bottom/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201455" />
-    <state width="2006" height="260" key="GridCell.Tab.0.center" timestamp="1606399974631">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2006" height="260" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974631" />
-    <state width="2006" height="197" key="GridCell.Tab.0.center/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428557" />
-    <state width="1665" height="205" key="GridCell.Tab.0.center/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201455" />
-    <state width="2006" height="260" key="GridCell.Tab.0.left" timestamp="1606399974630">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2006" height="260" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974630" />
-    <state width="2006" height="197" key="GridCell.Tab.0.left/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428556" />
-    <state width="1665" height="205" key="GridCell.Tab.0.left/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201454" />
-    <state width="2006" height="260" key="GridCell.Tab.0.right" timestamp="1606399974632">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2006" height="260" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1606399974632" />
-    <state width="2006" height="197" key="GridCell.Tab.0.right/0.25.2048.1084@0.25.2048.1084" timestamp="1606316428557" />
-    <state width="1665" height="205" key="GridCell.Tab.0.right/0.25.2048.1090@0.25.2048.1090" timestamp="1601822201455" />
-    <state x="608" y="314" key="IDE.errors.dialog" timestamp="1606364091120">
-      <screen x="0" y="25" width="2048" height="1084" />
-    </state>
-    <state x="608" y="314" key="IDE.errors.dialog/0.25.2048.1084@0.25.2048.1084" timestamp="1606364091120" />
-    <state x="512" y="154" key="SettingsEditor" timestamp="1601810509037">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="512" y="154" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1601810509037" />
-    <state width="329" height="350" key="documentation.popup.size" timestamp="1606364742447">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="329" height="350" key="documentation.popup.size/0.0.2048.1152@0.0.2048.1152" timestamp="1606364742447" />
-    <state x="459" y="195" key="new project wizard" timestamp="1606787539941">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="459" y="195" key="new project wizard/0.0.2048.1152@0.0.2048.1152" timestamp="1606787539941" />
-    <state x="459" y="209" key="new project wizard/0.25.2048.1084@0.25.2048.1084" timestamp="1606315113498" />
-    <state x="459" y="210" key="new project wizard/0.25.2048.1090@0.25.2048.1090" timestamp="1601811247354" />
-    <state x="689" y="273" key="run.anything.popup" timestamp="1601814369925">
-      <screen x="0" y="25" width="2048" height="1090" />
-    </state>
-    <state x="689" y="273" key="run.anything.popup/0.25.2048.1090@0.25.2048.1090" timestamp="1601814369925" />
-    <state x="689" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1601819950261">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="689" y="259" width="670" height="676" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1601819950261" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MaxMC_Projects$MaxParent__dependencies_.ic" NAME="MaxParent [dependencies] Coverage Results" MODIFIED="1606798526207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,2 +1,28 @@
+console:
+  prefix: "§0[§3MaxHub§0] "
+  reload: "§b监测到配置文件更改,已自动重载."
+  load_modules: "§b正在加载模块..."
+  load_modules_success: "§a成功加载 {0} 个模块"
+  enable_module: "§a成功启用模块 {0}"
+  disable_module: "§b成功关闭模块 {0}"
+command:
+  set_spawn: "§a成功将出生点设置在 {0}"
+  module_not_exist: "§c模块 {0} 不存在"
+  module_already_enable: "§c模块 {0} 已处于启用状态,无需再次启用"
+  module_enable: "§b模块 {0} 已启用"
+  module_already_disable: "§c模块 {0} 已处于停用状态,无需再次停用"
+  module_disable: "§b模块 {0} 已停用"
 SpeedUp:
   active: "§a您已开启加速"
+  inactive: "§c您已关闭加速"
+  delay: "§e您需要等待{0}s以再次使用"
+  inactive_item:
+    name: "§a右键加速§f(§7老司机还在休息§f)"
+    lore: |-
+      §e老司机の钥匙
+      §a右键请老司机发车
+  active_item:
+    name: "§a右键减速§f(§7老司机已发车§f)"
+    lore: |-
+      §e老司机の钥匙
+      §a右键请老司机喝杯咖啡(Java)

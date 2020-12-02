@@ -1,2 +1,12 @@
-group 'cn.maxmc'
+group 'cn.maxmc.maxhub'
 version '1.0.0'
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        include 'plugin.yml'
+        expand name: this.name,
+                main: this.group + ".boot.PluginBoot",
+                version: this.version,
+                libVersion: taboolib.tabooLibVersion
+    }
+}
