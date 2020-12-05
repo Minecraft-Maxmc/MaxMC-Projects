@@ -1,9 +1,6 @@
 package cn.maxmc.maxhub
 
-import cn.maxmc.maxhub.modules.AbstractModule
-import cn.maxmc.maxhub.modules.AntiVoid
-import cn.maxmc.maxhub.modules.InvManager
-import cn.maxmc.maxhub.modules.SpeedUp
+import cn.maxmc.maxhub.modules.*
 
 object ModuleManager {
     val modules = ArrayList<AbstractModule>()
@@ -13,6 +10,9 @@ object ModuleManager {
             AntiVoid,
             SpeedUp,
             InvManager,
+            HidePlayer,
+            PortalCommand,
+            ScoreBoard,
         )
     }
 

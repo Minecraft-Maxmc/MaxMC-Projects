@@ -2,6 +2,11 @@ package cn.maxmc.maxhub.commands
 
 import cn.maxmc.maxhub.*
 import io.izzel.taboolib.module.command.base.*
+import mkremins.fanciful.FancyMessage
+import net.md_5.bungee.api.chat.ClickEvent
+import net.md_5.bungee.api.chat.ComponentBuilder
+import net.md_5.bungee.api.chat.HoverEvent
+import net.md_5.bungee.api.chat.TextComponent
 import org.bukkit.command.Command
 import org.bukkit.command.CommandSender
 import org.bukkit.entity.Player
@@ -85,4 +90,37 @@ class MaxHubCommand : BaseMainCommand(){
         }
     }
 
+    @SubCommand(permission = "maxhub.list")
+    val list = object : BaseSubCommand() {
+        override fun onCommand(sender: CommandSender, command: Command, label: String, args: Array<String>) {
+            pSendTo(sender,"command.list_module")
+            ModuleManager.modules.forEach {
+                val fancyMessage = FancyMessage(enableToColor(it.isEnable) + it.name)
+                if(it.isEnable) {
+                    fancyMessage
+                        .then("[✗]")
+                        .tooltip("command.module_disable_hover")
+                        .command( "/maxhub toggle ${it.name}")
+                } else {
+                    fancyMessage
+                        .then("[✔]")
+                        .tooltip("command.module_enable_hover")
+                        .command( "/maxhub toggle ${it.name}")
+                }
+                fancyMessage.send(sender)
+            }
+        }
+    }
+
+    @SubCommand(hideInHelp = true)
+    val migrate = object : BaseSubCommand() {
+        override fun onCommand(p0: CommandSender, p1: Command, p2: String, p3: Array<out String>) {
+            settings.migrate()
+            p0.sendMessage("§b已迁移")
+        }
+    }
+
+    private fun enableToColor(enable: Boolean): String {
+        return if(enable) "§a" else "§c"
+    }
 }

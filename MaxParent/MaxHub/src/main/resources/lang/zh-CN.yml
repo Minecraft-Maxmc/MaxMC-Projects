@@ -12,6 +12,9 @@ command:
   module_enable: "§b模块 {0} 已启用"
   module_already_disable: "§c模块 {0} 已处于停用状态,无需再次停用"
   module_disable: "§b模块 {0} 已停用"
+  list_module: "§b模块列表§f:"
+  module_enable_hover: "§b点击启用模块 {0}"
+  module_disable_hover: "§b点击停用模块 {0}"
 SpeedUp:
   active: "§a您已开启加速"
   inactive: "§c您已关闭加速"
@@ -26,3 +29,17 @@ SpeedUp:
     lore: |-
       §e老司机の钥匙
       §a右键请老司机喝杯咖啡(Java)
+HIdePlayer:
+  active: "§e您已隐藏其他玩家"
+  inactive: "§a您已取消隐藏"
+  delay: "§e您需要等待{0}s以再次使用"
+  inactive_item:
+    name: "§a右键隐藏其他玩家"
+    lore: |-
+      §e日本电车老司机の最爱
+      §a右键隐藏
+  active_item:
+    name: "§a右键显示其他玩家"
+    lore: |-
+      §e日本电车老司机の最爱
+      §a右键显示

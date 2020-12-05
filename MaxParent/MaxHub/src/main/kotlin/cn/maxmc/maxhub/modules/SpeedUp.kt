@@ -3,10 +3,13 @@ package cn.maxmc.maxhub.modules
 import cn.maxmc.maxhub.modules.SpeedUp.State.*
 import cn.maxmc.maxhub.pSendTo
 import cn.maxmc.maxhub.settings
+import io.izzel.taboolib.module.inject.PlayerContainer
 import io.izzel.taboolib.module.inject.TSchedule
 import io.izzel.taboolib.module.locale.TLocale
+import io.izzel.taboolib.util.Baffle
 import io.izzel.taboolib.util.item.ItemBuilder
 import org.bukkit.Material
+import org.bukkit.Sound
 import org.bukkit.entity.Player
 import org.bukkit.event.EventHandler
 import org.bukkit.event.block.Action
@@ -16,8 +19,12 @@ import org.bukkit.event.player.PlayerQuitEvent
 import org.bukkit.inventory.ItemStack
 import org.bukkit.potion.PotionEffect
 import org.bukkit.potion.PotionEffectType
+import java.util.concurrent.TimeUnit
 
 object SpeedUp: AbstractModule() {
+    @PlayerContainer
+    val baffle = Baffle.of(config.getLong("switch_delay"),TimeUnit.SECONDS) as Baffle.BaffleTime
+
     enum class State(val item: ItemStack) {
         ACTIVE(ItemBuilder(Material.SULPHUR)
             .amount(1)
@@ -37,30 +44,15 @@ object SpeedUp: AbstractModule() {
     }
 
     private val playerSpeedMap = HashMap<Player,State>()
-    private val playerDelayMap = HashMap<Player,Int>()
 
     // Register speed up item in InvManager
-    init {
-        InvManager.moduleItems[this] = mapOf(INACTIVE.item to 7)
+    override fun onEnable() {
+        InvManager.moduleItems[this] = mapOf(INACTIVE.item to 8)
     }
 
-    var Player.delay: Int
-        get() {
-            return playerDelayMap[this] ?: 0
-        }
-        set(value) {
-            if(value == 0) {
-                playerDelayMap.remove(this)
-                return
-            }
-            playerDelayMap[this] = value
-        }
-
-    val Player.isInDelay: Boolean
-        get() {
-            return playerDelayMap.containsKey(this)
-        }
-
+    override fun onDisable() {
+        InvManager.moduleItems.remove(this)
+    }
     var Player.speedUpState: State
         get() {
             return playerSpeedMap[this]!!
@@ -71,7 +63,7 @@ object SpeedUp: AbstractModule() {
 
     @EventHandler
     fun onClickSugar(e: PlayerInteractEvent) {
-        if(!e.hasItem() && (e.action != Action.RIGHT_CLICK_BLOCK || e.action != Action.RIGHT_CLICK_AIR)) {
+        if(!e.hasItem() && e.action != Action.RIGHT_CLICK_BLOCK && e.action != Action.RIGHT_CLICK_AIR) {
             return
         }
         if(e.item != ACTIVE.item && e.item != INACTIVE.item) {
@@ -90,32 +82,24 @@ object SpeedUp: AbstractModule() {
         playerSpeedMap.remove(e.player)
     }
 
-    @Suppress("MemberVisibilityCanBePrivate")
-    fun switchPlayerState(p: Player) {
-        if(playerDelayMap.containsKey(p)) {
-            pSendTo(p,"SpeedUp.delay", playerDelayMap[p].toString())
+    private fun switchPlayerState(p: Player) {
+        if(baffle.hasNext(p.name)) {
+            pSendTo(p,"SpeedUp.delay", TimeUnit.MILLISECONDS.toMillis(baffle.nextTime(p.uniqueId.toString())).toString())
             return
         }
-        playerDelayMap[p] = settings.getInt("SpeedUp.switch_delay")
-        playerSpeedMap[p] = playerSpeedMap[p]!!.switch()
+
+        p.speedUpState = p.speedUpState.switch()
         when(p.speedUpState) {
             ACTIVE -> {
+                p.playSound(p.location, Sound.valueOf(config.getString("sound")),1f,2f)
                 p.addPotionEffect(PotionEffect(PotionEffectType.SPEED, Int.MAX_VALUE,config.getDouble("active_speed").toInt(),false,false))
             }
             INACTIVE -> {
+                p.playSound(p.location, Sound.valueOf(config.getString("sound")),1f,0f)
                 p.removePotionEffect(PotionEffectType.SPEED)
             }
         }
         p.itemInHand = p.speedUpState.item
         pSendTo(p,"SpeedUp.${p.speedUpState.name.toLowerCase()}")
-    }
-    @TSchedule(period = 20)
-    fun decreaseTime() {
-        playerDelayMap.forEach { (p,time) ->
-            playerDelayMap[p] = time - 1
-            if (playerDelayMap[p]!! <= 0) {
-                playerDelayMap.remove(p)
-            }
-        }
     }
 }

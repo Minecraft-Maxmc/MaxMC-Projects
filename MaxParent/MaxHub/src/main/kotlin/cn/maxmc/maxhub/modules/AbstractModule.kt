@@ -14,12 +14,17 @@ abstract class AbstractModule: Listener {
     private set
     val config: ConfigurationSection
     get() = settings.getConfigurationSection(this::class.java.simpleName)
-    val name
-    get() = this::class.java.simpleName
+    val name: String
+        get() = this::class.java.simpleName
     fun enable(plugin: Plugin) {
         pSendToConsole("console.enable_module", this::class.java.simpleName)
         Bukkit.getPluginManager().registerEvents(this,plugin)
         isEnable = true
+        onEnable()
+    }
+
+    open fun onEnable() {
+
     }
 
     fun disable() {
@@ -33,5 +38,10 @@ abstract class AbstractModule: Listener {
              handlerList.unregister(this)
          }
         isEnable = false
+        onDisable()
+    }
+
+    open fun onDisable() {
+
     }
 }

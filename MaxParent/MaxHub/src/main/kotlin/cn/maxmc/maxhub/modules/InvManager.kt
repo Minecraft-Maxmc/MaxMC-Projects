@@ -30,7 +30,7 @@ object InvManager : AbstractModule(){
         }
 
         // Fill configured items
-        if(config.getBoolean("join_items")) {
+        if(config.getBoolean("join_items.enable")) {
             fillJoinItems(e.player.inventory)
         }
 
@@ -46,8 +46,10 @@ object InvManager : AbstractModule(){
     }
 
     private fun fillJoinItems(inventory: PlayerInventory) {
-        config.getConfigurationSection("InvManager.join_items.items").getKeys(false).forEach {
-            val section = config.getConfigurationSection("InvManager.join_items.items.${it}")
+        // section = InvManager.join_items.items
+        // true =    InvManager.join_items.items
+        config.getConfigurationSection("join_items.items").getKeys(false).forEach {
+            val section = config.getConfigurationSection("join_items.items.${it}")
             val builder = ItemBuilder(Material.matchMaterial(section.getString("type")))
                 .name(section.getString("name").replace('&', '§'))
                 .amount(section.getInt("amount"))

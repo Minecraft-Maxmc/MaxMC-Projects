@@ -13,6 +13,7 @@ SpeedUp:
   enable: false
   active_speed: 5
   switch_delay: 3
+  sound: ORB_PICKUP
 InvManager:
   enable: false
   no_drop: true
@@ -31,3 +32,22 @@ InvManager:
         shiny: false
         enchantments:
           effiency: 1
+ScoreBoard:
+  enable: false
+  refresh: 3
+  title:
+    - "MaxMc"
+    - "MaxMc"
+    - "MaxMc"
+    - "MaxMc"
+    - "MaxMc"
+  content: |-
+    的
+PortalCommand:
+  enable: false
+  nether: ""
+  end: ""
+HidePlayer:
+  enable: false
+  switch_deplay: 3
+  sound: ORB_PICKUP
