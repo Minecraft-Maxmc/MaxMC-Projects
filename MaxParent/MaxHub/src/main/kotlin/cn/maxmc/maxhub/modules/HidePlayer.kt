@@ -18,7 +18,6 @@ import org.bukkit.inventory.ItemStack
 import java.util.concurrent.TimeUnit
 
 object HidePlayer: AbstractModule() {
-    @PlayerContainer(uniqueId = true)
     val baffle = Baffle.of(config.getLong("switch_delay"),TimeUnit.SECONDS) as Baffle.BaffleTime
 
     override fun onEnable() {
@@ -73,6 +72,7 @@ object HidePlayer: AbstractModule() {
     @EventHandler
     fun onLeft(e: PlayerQuitEvent) {
         hideMap.remove(e.player)
+        baffle.release(e.player,e.player.uniqueId.toString())
     }
 
     @EventHandler

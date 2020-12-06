@@ -23,22 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9fea1f8-254f-4b4c-a9a7-2da41cda3067" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/HidePlayer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/PortalCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/ScoreBoard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/nms/AbsNMS.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/nms/NMSImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/MaxHub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/MaxHub.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/ModuleManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/ModuleManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/commands/MaxHubCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/commands/MaxHubCommand.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/AbstractModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/AbstractModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/InvManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/InvManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/HidePlayer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/HidePlayer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/ScoreBoard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/ScoreBoard.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/SpeedUp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/modules/SpeedUp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/nms/NMSImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/kotlin/cn/maxmc/maxhub/nms/NMSImpl.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/lang/zh-CN.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/lang/zh-CN.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MaxParent/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/MaxParent/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,12 +99,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -154,7 +144,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="库" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.reader.mode" />
@@ -165,7 +155,7 @@
       <recent name="$PROJECT_DIR$/MaxParent/MaxHub/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MaxParent:MaxHub [clean]">
+  <component name="RunManager" selected="Gradle.MaxParent:MaxHub [build]">
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="lua" />
       <option name="file" value="" />
@@ -176,13 +166,15 @@
       <option name="showConsole" value="true" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -362,8 +354,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MaxParent:MaxHub [clean]" />
         <item itemvalue="Gradle.MaxParent:MaxHub [build]" />
+        <item itemvalue="Gradle.MaxParent:MaxHub [clean]" />
         <item itemvalue="Gradle.MaxParent:MaxHub [jar]" />
         <item itemvalue="Gradle.MaxParent:MaxHub [assemble]" />
         <item itemvalue="Gradle.MaxParent [dependencies]" />
@@ -397,8 +389,17 @@
       <workItem from="1606907833965" duration="4535000" />
       <workItem from="1606994366443" duration="7831000" />
       <workItem from="1607175578056" duration="528000" />
-      <workItem from="1607176430618" duration="2860000" />
+      <workItem from="1607176430618" duration="3620000" />
+      <workItem from="1607180679273" duration="4309000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1607179393800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607179393800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,6 +416,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MaxMC_Projects$MaxParent__dependencies_.ic" NAME="MaxParent [dependencies] Coverage Results" MODIFIED="1606798526207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

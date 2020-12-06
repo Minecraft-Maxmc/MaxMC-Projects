@@ -29,7 +29,7 @@ SpeedUp:
     lore: |-
       §e老司机の钥匙
       §a右键请老司机喝杯咖啡(Java)
-HIdePlayer:
+HidePlayer:
   active: "§e您已隐藏其他玩家"
   inactive: "§a您已取消隐藏"
   delay: "§e您需要等待{0}s以再次使用"

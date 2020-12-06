@@ -22,8 +22,7 @@ import org.bukkit.potion.PotionEffectType
 import java.util.concurrent.TimeUnit
 
 object SpeedUp: AbstractModule() {
-    @PlayerContainer
-    val baffle = Baffle.of(config.getLong("switch_delay"),TimeUnit.SECONDS) as Baffle.BaffleTime
+    private val baffle = Baffle.of(config.getLong("switch_delay"),TimeUnit.SECONDS) as Baffle.BaffleTime
 
     enum class State(val item: ItemStack) {
         ACTIVE(ItemBuilder(Material.SULPHUR)
@@ -47,7 +46,7 @@ object SpeedUp: AbstractModule() {
 
     // Register speed up item in InvManager
     override fun onEnable() {
-        InvManager.moduleItems[this] = mapOf(INACTIVE.item to 8)
+        InvManager.moduleItems[this] = mapOf(INACTIVE.item to 7)
     }
 
     override fun onDisable() {
@@ -80,10 +79,11 @@ object SpeedUp: AbstractModule() {
     @EventHandler
     fun onLeft(e: PlayerQuitEvent) {
         playerSpeedMap.remove(e.player)
+        baffle.release(e.player,e.player.uniqueId.toString())
     }
 
     private fun switchPlayerState(p: Player) {
-        if(baffle.hasNext(p.name)) {
+        if(!baffle.hasNext(p.name)) {
             pSendTo(p,"SpeedUp.delay", TimeUnit.MILLISECONDS.toMillis(baffle.nextTime(p.uniqueId.toString())).toString())
             return
         }

@@ -12,7 +12,7 @@ class NMSImpl: AbsNMS {
             player,
             objectiveStop,
             "a" to "scoreBoard",
-            "b" to ChatComponentText(title),
+            "b" to title,
             "c" to IScoreboardCriteria.EnumScoreboardHealthDisplay.INTEGER,
             "d" to 1
         )
@@ -21,7 +21,7 @@ class NMSImpl: AbsNMS {
             player,
             objectiveStart,
             "a" to "scoreBoard",
-            "b" to ChatComponentText(title),
+            "b" to title,
             "c" to IScoreboardCriteria.EnumScoreboardHealthDisplay.INTEGER,
             "d" to 0
         )
@@ -30,7 +30,7 @@ class NMSImpl: AbsNMS {
             player,
             objectiveChange,
             "a" to "scoreBoard",
-            "b" to ChatComponentText(title),
+            "b" to title,
             "c" to IScoreboardCriteria.EnumScoreboardHealthDisplay.INTEGER,
             "d" to 2
         )

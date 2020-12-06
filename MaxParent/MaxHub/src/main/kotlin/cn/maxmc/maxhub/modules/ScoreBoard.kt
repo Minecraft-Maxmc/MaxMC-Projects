@@ -35,7 +35,7 @@ object ScoreBoard: AbstractModule() {
                     }
                     AbsNMS.instance.sendScoreBoard(
                         it,
-                        PlaceholderHook.replace(it,config.getString("title").replace('&', '§')),
+                        PlaceholderHook.replace(it, titles[pointer]),
                         *PlaceholderHook.replace(it,config.getString("content").replace('&', '§').lines()).toTypedArray()
                     )
                 }
